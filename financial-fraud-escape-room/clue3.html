@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li class="active"><a href="clue3.html"class="nav">Clue 3</a></li>
+      <li><a href="clue2.html"class="nav">Clue 2</a></li>
+      <li><a href="clue1.html" class="nav">Clue 1</a></li>
+      <li><a href="index.html" class="nav">Login</a></li>
+      <li style="float:left"><a href="https://moneynotmagic.wixsite.com/personalfinance" target="_blank" class="nav">Money Not Magic</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1>3</h1>
+  </header>
+
+  <form style="width:40%; margin:auto; min-width:200px" action="#" name="pwdStrength" onsubmit="checkPwdStrength();return false">
+      <h3>Password Strength</h3>
+    <p>Use this website (<a href="https://www.security.org/how-secure-is-my-password/" style="display:inline" target="_blank">https://howsecureismypassword.net/</a>) to find out how long it takes for a computer to crack each of these passwords. Submit exactly what the website outputs (spell out all units, capitalize all letters, etc.)</p>
+    <label for="password">password</label>:
+    <input type="text" id="password" name="password"><br>
+    <label for="johnsmith">johnsmith</label>:
+    <input type="text" id="johnsmith" name="johnsmith"><br>
+    <label for="jsmith0523">jsmith0523</label>:
+    <input type="text" id="jsmith0523" name="jsmith0523"><br>
+    <label for="fraud">fraud</label>:
+    <input type="text" id="fraud" name="fraud"><br>
+    <label for="hello">hello</label>:
+    <input type="text" id="hello" name="hello"><br>
+    <label for="h3110">h3110 (the last 4 characters are numbers)</label>:
+    <input type="text" id="h3110" name="h3110"><br>
+    <label for="jU9hiw%">jU9hiw%</label>:
+    <input type="text" id="jU9hiw%" name="jU9hiw%"><br>
+    <label for="jU9hiw%Q">jU9hiw%Q</label>:
+    <input type="text" id="jU9hiw%Q" name="jU9hiw%Q"><br>
+    <label for="ntd4ftw3dyp7$">ntd4ftw3dyp7$</label>:
+    <input type="text" id="ntd4ftw3dyp7$" name="ntd4ftw3dyp7$"><br>
+  
+      <button type="submit">Check</button>
+    <p id="pwdStrengthValidation"></p>
+
+  </form>
+
+  <div id="clue3" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img src="images/iMessage.PNG" style="width:100%">
+    </div>
+  </div>
+  <footer>
+    <p>Here are the <a href="solutions.html"> solutions</a>.</p>
+  </footer>
+</body>
+
+</html>
