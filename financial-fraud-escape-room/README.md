@@ -1,0 +1,1 @@
+I designed this virtual escape room to educate players about the dangers of financial fraud and how to combat it. This project was created for Money Not Magic's workshop series. Learn more about Money Not Magic at its website: https://moneynotmagic.wixsite.com/personalfinance.
